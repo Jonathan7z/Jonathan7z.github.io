@@ -56,7 +56,8 @@
 							<article id="about">
 								<h2 class="major">Instalacion de Zsh en Linux</h2>
 								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
-								<p>Para instalar el Zsh primero nesecitamos estar en super usuario con el comando <b> SUDO SU </b> despues en la consola se instala el zsh con el comando </p>
+								<p>
+								 <p>Para instalar el Zsh primero nesecitamos estar en super usuario con el comando <b> SUDO SU </b> despues en la consola se instala el zsh con el comando </p>
 									
 								
                                                                    <li type="circle">sudo apt-get install zsh</li>
@@ -75,8 +76,20 @@
 									<li type="circle"> echo $SHELL </li>
 								
 								<p>Para confirmar que se cambio el shell a zsh</p>
+								<p>Despues se prosigue a configurar Zsh nesecitamos el <b>wget</b> aca el comando:</p>
+									
+									<li type="circle"> apt install wget git </li>	
 
-								     
+								<p> Ahora usamos ente comando para instalar el script y ejecutarlo</p>
+								           
+								         <li type="circle"> awget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh </li>
+								
+								<p> En esta pagina se encuentran diseños para el zsh se puede editar el archivo mvon vim y nano </p>
+								      
+								      <li type="circle"> https://github.com/robbyrussell/oh-my-zsh/wiki/Themes </li>
+
+
+								</p>
 								     <ul class="icons">
 									<li><a href="#" class="icon fa-google"><span class="label">Hotmail</span></a></li>
 									<li><a href="https://steamcommunity.com/id/Shadow7z/"target="_blank" class="icon fa-steam"><span class="label">Steam</span></a></li>
